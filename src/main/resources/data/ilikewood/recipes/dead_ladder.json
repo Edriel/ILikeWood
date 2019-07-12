@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "###",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "ilikewood:dead_stick"
+    }
+  },
+  "result": {
+    "item": "ilikewood:dead_ladder",
+    "count": 3
+  }
+}

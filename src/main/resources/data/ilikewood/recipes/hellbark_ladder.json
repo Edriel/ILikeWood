@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "###",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "ilikewood:hellbark_stick"
+    }
+  },
+  "result": {
+    "item": "ilikewood:hellbark_ladder",
+    "count": 3
+  }
+}

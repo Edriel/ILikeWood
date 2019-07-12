@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "ilikewood:block/torch/wall/mahogany",
+      "y": 0
+    },
+    "facing=south": {
+      "model": "ilikewood:block/torch/wall/mahogany",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "ilikewood:block/torch/wall/mahogany",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "ilikewood:block/torch/wall/mahogany",
+      "y": 180
+    }
+  }
+}

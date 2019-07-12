@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "###",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "ilikewood:jacaranda_stick"
+    }
+  },
+  "result": {
+    "item": "ilikewood:jacaranda_ladder",
+    "count": 3
+  }
+}

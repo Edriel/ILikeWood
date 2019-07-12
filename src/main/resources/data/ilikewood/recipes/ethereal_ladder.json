@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "###",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "ilikewood:ethereal_stick"
+    }
+  },
+  "result": {
+    "item": "ilikewood:ethereal_ladder",
+    "count": 3
+  }
+}
