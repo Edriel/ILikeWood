@@ -68,6 +68,15 @@ public class WoodenScaffoldingBlock extends Block implements IWooden, IWaterLogg
                 break;
             }
         }
+        if(!flag && ModList.get().isLoaded("biomesoplenty")) {
+            for(Block block : BoPConstants.SCAFFOLDINGS) {
+                if(selectionContextIn.hasItem(Item.getItemFromBlock(block))) {
+                    flag = true;
+                    break;
+                }
+            }
+        }
+
         if (!flag) {
             return blockStateIn.get(BOTTOM) ? UNSTABLE_SHAPE : STABLE_SHAPE;
         } else {
