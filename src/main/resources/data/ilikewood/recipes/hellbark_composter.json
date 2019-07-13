@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "F F",
+    "F F",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:hellbark_planks"
+    },
+    "F": {
+      "item": "biomesoplenty:hellbark_fence"
+    }
+  },
+  "result": {
+    "item": "ilikewood:hellbark_composter"
+  }
+}

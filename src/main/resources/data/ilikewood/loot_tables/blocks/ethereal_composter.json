@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+	  "name": "ethereal_composter0",
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ],
+          "name": "ilikewood:ethereal_composter"
+        }
+      ]
+    },
+    {
+      "name": "ethereal_composter1",
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone_meal"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "ilikewood:ethereal_composter",
+          "properties": {
+            "level": "8"
+          }
+        }
+      ]
+    }
+  ]
+}

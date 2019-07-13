@@ -42,4 +42,17 @@ public class ModTileEntityType {
     public static final TileEntityType<WoodenBarrelTileEntity> redwood_barrel = null;
     public static final TileEntityType<WoodenBarrelTileEntity> umbran_barrel = null;
     public static final TileEntityType<WoodenBarrelTileEntity> willow_barrel = null;
+
+    public static final TileEntityType<WoodenLecternTileEntity> cherry_lectern = null;
+    public static final TileEntityType<WoodenLecternTileEntity> dead_lectern = null;
+    public static final TileEntityType<WoodenLecternTileEntity> ethereal_lectern = null;
+    public static final TileEntityType<WoodenLecternTileEntity> fir_lectern = null;
+    public static final TileEntityType<WoodenLecternTileEntity> hellbark_lectern = null;
+    public static final TileEntityType<WoodenLecternTileEntity> jacaranda_lectern = null;
+    public static final TileEntityType<WoodenLecternTileEntity> magic_lectern = null;
+    public static final TileEntityType<WoodenLecternTileEntity> mahogany_lectern = null;
+    public static final TileEntityType<WoodenLecternTileEntity> palm_lectern = null;
+    public static final TileEntityType<WoodenLecternTileEntity> redwood_lectern = null;
+    public static final TileEntityType<WoodenLecternTileEntity> umbran_lectern = null;
+    public static final TileEntityType<WoodenLecternTileEntity> willow_lectern = null;
 }

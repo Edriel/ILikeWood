@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+	  "name": "magic_composter0",
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ],
+          "name": "ilikewood:magic_composter"
+        }
+      ]
+    },
+    {
+      "name": "magic_composter1",
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone_meal"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "ilikewood:magic_composter",
+          "properties": {
+            "level": "8"
+          }
+        }
+      ]
+    }
+  ]
+}

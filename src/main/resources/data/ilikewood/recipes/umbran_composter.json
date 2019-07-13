@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "F F",
+    "F F",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:umbran_planks"
+    },
+    "F": {
+      "item": "biomesoplenty:umbran_fence"
+    }
+  },
+  "result": {
+    "item": "ilikewood:umbran_composter"
+  }
+}

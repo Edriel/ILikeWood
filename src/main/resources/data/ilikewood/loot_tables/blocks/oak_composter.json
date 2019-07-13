@@ -2,7 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
-			"name": "oak_composter0",
+	  "name": "oak_composter0",
       "rolls": 1.0,
       "entries": [
         {

@@ -2,7 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
-			"name": "birch_bookshelf",
+	  "name": "birch_bookshelf",
       "rolls": 1,
       "entries": [
         {

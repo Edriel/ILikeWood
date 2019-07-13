@@ -43,6 +43,54 @@ public class BoPConstants {
                     ModBlocks.willow_barrel
             );
 
+    public static final ImmutableSet<Block> BOOKSHELFS =
+            ImmutableSet.of(
+                    ModBlocks.cherry_bookshelf,
+                    ModBlocks.dead_bookshelf,
+                    ModBlocks.ethereal_bookshelf,
+                    ModBlocks.fir_bookshelf,
+                    ModBlocks.hellbark_bookshelf,
+                    ModBlocks.jacaranda_bookshelf,
+                    ModBlocks.magic_bookshelf,
+                    ModBlocks.mahogany_bookshelf,
+                    ModBlocks.palm_bookshelf,
+                    ModBlocks.redwood_bookshelf,
+                    ModBlocks.umbran_bookshelf,
+                    ModBlocks.willow_bookshelf
+            );
+
+    public static final ImmutableSet<Block> COMPOSTERS =
+            ImmutableSet.of(
+                    ModBlocks.cherry_composter,
+                    ModBlocks.dead_composter,
+                    ModBlocks.ethereal_composter,
+                    ModBlocks.fir_composter,
+                    ModBlocks.hellbark_composter,
+                    ModBlocks.jacaranda_composter,
+                    ModBlocks.magic_composter,
+                    ModBlocks.mahogany_composter,
+                    ModBlocks.palm_composter,
+                    ModBlocks.redwood_composter,
+                    ModBlocks.umbran_composter,
+                    ModBlocks.willow_composter
+            );
+
+    public static final ImmutableSet<Block> LECTERNS =
+            ImmutableSet.of(
+                    ModBlocks.cherry_lectern,
+                    ModBlocks.dead_lectern,
+                    ModBlocks.ethereal_lectern,
+                    ModBlocks.fir_lectern,
+                    ModBlocks.hellbark_lectern,
+                    ModBlocks.jacaranda_lectern,
+                    ModBlocks.magic_lectern,
+                    ModBlocks.mahogany_lectern,
+                    ModBlocks.palm_lectern,
+                    ModBlocks.redwood_lectern,
+                    ModBlocks.umbran_lectern,
+                    ModBlocks.willow_lectern
+            );
+
     static {
         Map<Block, Block> torches = new HashMap();
         torches.put(ModBlocks.cherry_torch, ModBlocks.cherry_wall_torch);

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PSP",
+    "P P",
+    "PSP"
+  ],
+  "key": {
+    "P": {
+      "item": "biomesoplenty:magic_planks"
+    },
+    "S": {
+      "item": "biomesoplenty:magic_slab"
+    }
+  },
+  "result": {
+    "item": "ilikewood:magic_barrel"
+  }
+}

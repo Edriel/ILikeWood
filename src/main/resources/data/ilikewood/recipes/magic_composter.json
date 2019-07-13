@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "F F",
+    "F F",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:magic_planks"
+    },
+    "F": {
+      "item": "biomesoplenty:magic_fence"
+    }
+  },
+  "result": {
+    "item": "ilikewood:magic_composter"
+  }
+}

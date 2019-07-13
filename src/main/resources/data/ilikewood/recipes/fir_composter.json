@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "F F",
+    "F F",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:fir_planks"
+    },
+    "F": {
+      "item": "biomesoplenty:fir_fence"
+    }
+  },
+  "result": {
+    "item": "ilikewood:fir_composter"
+  }
+}

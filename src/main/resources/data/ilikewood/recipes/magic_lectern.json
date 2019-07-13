@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    " B ",
+    " S "
+  ],
+  "key": {
+    "B": {
+      "item": "ilikewood:magic_bookshelf"
+    },
+    "S": {
+      "item": "biomesoplenty:magic_slab"
+    }
+  },
+  "result": {
+    "item": "ilikewood:magic_lectern"
+  }
+}

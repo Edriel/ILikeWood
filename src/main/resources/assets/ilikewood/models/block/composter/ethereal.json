@@ -1,0 +1,8 @@
+{
+  "parent": "ilikewood:block/composter/template",
+  "textures": {
+    "side": "ilikewood:block/composter/side/ethereal",
+    "top": "ilikewood:block/composter/top/ethereal",
+    "bottom": "ilikewood:block/composter/bottom/ethereal"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "F F",
+    "F F",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:dead_planks"
+    },
+    "F": {
+      "item": "biomesoplenty:dead_fence"
+    }
+  },
+  "result": {
+    "item": "ilikewood:dead_composter"
+  }
+}

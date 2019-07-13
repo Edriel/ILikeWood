@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    " B ",
+    " S "
+  ],
+  "key": {
+    "B": {
+      "item": "ilikewood:dead_bookshelf"
+    },
+    "S": {
+      "item": "biomesoplenty:dead_slab"
+    }
+  },
+  "result": {
+    "item": "ilikewood:dead_lectern"
+  }
+}

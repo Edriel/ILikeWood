@@ -259,4 +259,43 @@ public class ModBlocks {
     public static final Block redwood_barrel = null;
     public static final Block umbran_barrel = null;
     public static final Block willow_barrel = null;
+
+    public static final Block cherry_bookshelf = null;
+    public static final Block dead_bookshelf = null;
+    public static final Block ethereal_bookshelf = null;
+    public static final Block fir_bookshelf = null;
+    public static final Block hellbark_bookshelf = null;
+    public static final Block jacaranda_bookshelf = null;
+    public static final Block magic_bookshelf = null;
+    public static final Block mahogany_bookshelf = null;
+    public static final Block palm_bookshelf = null;
+    public static final Block redwood_bookshelf = null;
+    public static final Block umbran_bookshelf = null;
+    public static final Block willow_bookshelf = null;
+
+    public static final Block cherry_composter = null;
+    public static final Block dead_composter = null;
+    public static final Block ethereal_composter = null;
+    public static final Block fir_composter = null;
+    public static final Block hellbark_composter = null;
+    public static final Block jacaranda_composter = null;
+    public static final Block magic_composter = null;
+    public static final Block mahogany_composter = null;
+    public static final Block palm_composter = null;
+    public static final Block redwood_composter = null;
+    public static final Block umbran_composter = null;
+    public static final Block willow_composter = null;
+
+    public static final Block cherry_lectern = null;
+    public static final Block dead_lectern = null;
+    public static final Block ethereal_lectern = null;
+    public static final Block fir_lectern = null;
+    public static final Block hellbark_lectern = null;
+    public static final Block jacaranda_lectern = null;
+    public static final Block magic_lectern = null;
+    public static final Block mahogany_lectern = null;
+    public static final Block palm_lectern = null;
+    public static final Block redwood_lectern = null;
+    public static final Block umbran_lectern = null;
+    public static final Block willow_lectern = null;
 }

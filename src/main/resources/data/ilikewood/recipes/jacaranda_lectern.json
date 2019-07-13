@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    " B ",
+    " S "
+  ],
+  "key": {
+    "B": {
+      "item": "ilikewood:jacaranda_bookshelf"
+    },
+    "S": {
+      "item": "biomesoplenty:jacaranda_slab"
+    }
+  },
+  "result": {
+    "item": "ilikewood:jacaranda_lectern"
+  }
+}

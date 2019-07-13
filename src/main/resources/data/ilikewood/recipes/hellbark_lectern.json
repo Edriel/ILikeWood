@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    " B ",
+    " S "
+  ],
+  "key": {
+    "B": {
+      "item": "ilikewood:hellbark_bookshelf"
+    },
+    "S": {
+      "item": "biomesoplenty:hellbark_slab"
+    }
+  },
+  "result": {
+    "item": "ilikewood:hellbark_lectern"
+  }
+}

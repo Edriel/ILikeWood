@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+	  "name": "palm_composter0",
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ],
+          "name": "ilikewood:palm_composter"
+        }
+      ]
+    },
+    {
+      "name": "palm_composter1",
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone_meal"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "ilikewood:palm_composter",
+          "properties": {
+            "level": "8"
+          }
+        }
+      ]
+    }
+  ]
+}

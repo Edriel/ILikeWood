@@ -1,7 +1,6 @@
 package yamahari.ilikewood.blocks;
 
 import net.minecraft.block.*;
-import net.minecraft.client.renderer.tileentity.LecternTileEntityRenderer;
 import net.minecraft.entity.item.ItemEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.inventory.container.INamedContainerProvider;
@@ -70,6 +69,30 @@ public class WoodenLecternBlock extends ContainerBlock implements IWooden {
                 return ModTileEntityType.acacia_lectern;
             case JUNGLE:
                 return ModTileEntityType.jungle_lectern;
+            case CHERRY:
+                return ModTileEntityType.cherry_lectern;
+            case DEAD:
+                return ModTileEntityType.dead_lectern;
+            case ETHEREAL:
+                return ModTileEntityType.ethereal_lectern;
+            case FIR:
+                return ModTileEntityType.fir_lectern;
+            case HELLBARK:
+                return ModTileEntityType.hellbark_lectern;
+            case JACARANDA:
+                return ModTileEntityType.jacaranda_lectern;
+            case MAGIC:
+                return ModTileEntityType.magic_lectern;
+            case MAHOGANY:
+                return ModTileEntityType.mahogany_lectern;
+            case PALM:
+                return ModTileEntityType.palm_lectern;
+            case REDWOOD:
+                return ModTileEntityType.redwood_lectern;
+            case UMBRAN:
+                return ModTileEntityType.umbran_lectern;
+            case WILLOW:
+                return ModTileEntityType.willow_lectern;
         }
     }
 

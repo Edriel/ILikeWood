@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    " B ",
+    " S "
+  ],
+  "key": {
+    "B": {
+      "item": "ilikewood:cherry_bookshelf"
+    },
+    "S": {
+      "item": "biomesoplenty:cherry_slab"
+    }
+  },
+  "result": {
+    "item": "ilikewood:cherry_lectern"
+  }
+}

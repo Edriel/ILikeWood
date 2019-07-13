@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    " B ",
+    " S "
+  ],
+  "key": {
+    "B": {
+      "item": "ilikewood:mahogany_bookshelf"
+    },
+    "S": {
+      "item": "biomesoplenty:mahogany_slab"
+    }
+  },
+  "result": {
+    "item": "ilikewood:mahogany_lectern"
+  }
+}

@@ -102,7 +102,10 @@ public class Main {
                             new WoodenLadderBlock(woodType).setRegistryName(woodType.getName() + "_ladder"),
                             new WoodenTorchBlock(woodType).setRegistryName(woodType.getName() + "_torch"),
                             new WoodenWallTorchBlock(woodType).setRegistryName(woodType.getName() + "_wall_torch"),
-                            new WoodenBarrelBlock(woodType).setRegistryName(woodType.getName() + "_barrel")
+                            new WoodenBarrelBlock(woodType).setRegistryName(woodType.getName() + "_barrel"),
+                            new WoodenBookshelfBlock().setRegistryName(woodType.getName() + "_bookshelf"),
+                            new WoodenComposterBlock(woodType).setRegistryName(woodType.getName() + "_composter"),
+                            new WoodenLecternBlock(woodType).setRegistryName(woodType.getName() + "_lectern")
                     );
                 }
             }
@@ -211,6 +214,18 @@ public class Main {
                     registry.register(new BlockItem(block, (new Item.Properties()).group(ItemGroup.DECORATIONS)).setRegistryName(block.getRegistryName()));
                 }
 
+                for(Block block : BoPConstants.BOOKSHELFS) {
+                    registry.register(new BlockItem(block, (new Item.Properties()).group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
+                }
+
+                for(Block block : BoPConstants.COMPOSTERS) {
+                    registry.register(new BlockItem(block, new Item.Properties().group(ItemGroup.MISC)).setRegistryName(block.getRegistryName()));
+                }
+
+                for(Block block : BoPConstants.LECTERNS) {
+                    registry.register(new BlockItem(block, (new Item.Properties()).group(ItemGroup.REDSTONE)).setRegistryName(block.getRegistryName()));
+                }
+
                 for(WoodType woodType : WoodType.values(WoodType.SubType.BOP)) {
                     registry.register(new Item(new Item.Properties().group(ItemGroup.MATERIALS)).setRegistryName(woodType.getName() + "_stick"));
                 }
@@ -247,6 +262,13 @@ public class Main {
                     WoodenBarrelBlock woodenBarrelBlock = (WoodenBarrelBlock)block;
                     registry.register(
                             TileEntityType.Builder.create(() -> new WoodenBarrelTileEntity(woodenBarrelBlock.getTileEntityType(), woodenBarrelBlock.getWoodType()), block).build(null).setRegistryName(woodenBarrelBlock.getWoodType().getName() + "_barrel")
+                    );
+                }
+
+                for(Block block : BoPConstants.LECTERNS) {
+                    WoodenLecternBlock woodenLecternBlock = (WoodenLecternBlock)block;
+                    registry.register(
+                            TileEntityType.Builder.create(() -> new WoodenLecternTileEntity(woodenLecternBlock.getTileEntityType(), woodenLecternBlock.getWoodType()), block).build(null).setRegistryName(woodenLecternBlock.getWoodType().getName() + "_lectern")
                     );
                 }
             }

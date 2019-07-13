@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "F F",
+    "F F",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:mahogany_planks"
+    },
+    "F": {
+      "item": "biomesoplenty:mahogany_fence"
+    }
+  },
+  "result": {
+    "item": "ilikewood:mahogany_composter"
+  }
+}

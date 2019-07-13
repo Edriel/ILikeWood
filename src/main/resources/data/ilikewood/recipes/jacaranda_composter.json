@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "F F",
+    "F F",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:jacaranda_planks"
+    },
+    "F": {
+      "item": "biomesoplenty:jacaranda_fence"
+    }
+  },
+  "result": {
+    "item": "ilikewood:jacaranda_composter"
+  }
+}

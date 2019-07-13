@@ -2,7 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
-			"name": "spruce_bookshelf",
+	  "name": "spruce_bookshelf",
       "rolls": 1,
       "entries": [
         {

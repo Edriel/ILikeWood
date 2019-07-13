@@ -2,7 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
-			"name": "spruce_lectern",
+	  "name": "spruce_lectern",
       "rolls": 1,
       "entries": [
         {

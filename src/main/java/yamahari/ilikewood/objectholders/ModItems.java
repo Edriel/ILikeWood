@@ -620,4 +620,43 @@ public class ModItems {
     public static final Item redwood_barrel = null;
     public static final Item umbran_barrel = null;
     public static final Item willow_barrel = null;
+
+    public static final Item cherry_bookshelf = null;
+    public static final Item dead_bookshelf = null;
+    public static final Item ethereal_bookshelf = null;
+    public static final Item fir_bookshelf = null;
+    public static final Item hellbark_bookshelf = null;
+    public static final Item jacaranda_bookshelf = null;
+    public static final Item magic_bookshelf = null;
+    public static final Item mahogany_bookshelf = null;
+    public static final Item palm_bookshelf = null;
+    public static final Item redwood_bookshelf = null;
+    public static final Item umbran_bookshelf = null;
+    public static final Item willow_bookshelf = null;
+
+    public static final Item cherry_composter = null;
+    public static final Item dead_composter = null;
+    public static final Item ethereal_composter = null;
+    public static final Item fir_composter = null;
+    public static final Item hellbark_composter = null;
+    public static final Item jacaranda_composter = null;
+    public static final Item magic_composter = null;
+    public static final Item mahogany_composter = null;
+    public static final Item palm_composter = null;
+    public static final Item redwood_composter = null;
+    public static final Item umbran_composter = null;
+    public static final Item willow_composter = null;
+
+    public static final Item cherry_lectern = null;
+    public static final Item dead_lectern = null;
+    public static final Item ethereal_lectern = null;
+    public static final Item fir_lectern = null;
+    public static final Item hellbark_lectern = null;
+    public static final Item jacaranda_lectern = null;
+    public static final Item magic_lectern = null;
+    public static final Item mahogany_lectern = null;
+    public static final Item palm_lectern = null;
+    public static final Item redwood_lectern = null;
+    public static final Item umbran_lectern = null;
+    public static final Item willow_lectern = null;
 }

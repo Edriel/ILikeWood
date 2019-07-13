@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PSP",
+    "P P",
+    "PSP"
+  ],
+  "key": {
+    "P": {
+      "item": "biomesoplenty:cherry_planks"
+    },
+    "S": {
+      "item": "biomesoplenty:cherry_slab"
+    }
+  },
+  "result": {
+    "item": "ilikewood:cherry_barrel"
+  }
+}

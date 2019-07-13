@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "ilikewood:block/lectern/redwood",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ilikewood:block/lectern/redwood",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "ilikewood:block/lectern/redwood",
+      "y": 0
+    },
+    "facing=west": {
+      "model": "ilikewood:block/lectern/redwood",
+      "y": 270
+    }
+  }
+}

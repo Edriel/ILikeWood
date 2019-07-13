@@ -236,6 +236,30 @@ public class WoodenLecternTileEntity extends TileEntity implements IClearable, I
                 return new TranslationTextComponent("container.ilikewood.jungle_lectern");
             case ACACIA:
                 return new TranslationTextComponent("container.ilikewood.acacia_lectern");
+            case CHERRY:
+                return new TranslationTextComponent("container.ilikewood.cherry_lectern");
+            case DEAD:
+                return new TranslationTextComponent("container.ilikewood.dead_lectern");
+            case ETHEREAL:
+                return new TranslationTextComponent("container.ilikewood.ethereal_lectern");
+            case FIR:
+                return new TranslationTextComponent("container.ilikewood.fir_lectern");
+            case HELLBARK:
+                return new TranslationTextComponent("container.ilikewood.hellbark_lectern");
+            case JACARANDA:
+                return new TranslationTextComponent("container.ilikewood.jacaranda_lectern");
+            case MAGIC:
+                return new TranslationTextComponent("container.ilikewood.magic_lectern");
+            case MAHOGANY:
+                return new TranslationTextComponent("container.ilikewood.mahogany_lectern");
+            case PALM:
+                return new TranslationTextComponent("container.ilikewood.palm_lectern");
+            case REDWOOD:
+                return new TranslationTextComponent("container.ilikewood.redwood_lectern");
+            case UMBRAN:
+                return new TranslationTextComponent("container.ilikewood.umbran_lectern");
+            case WILLOW:
+                return new TranslationTextComponent("container.ilikewood.willow_lectern");
         }
     }
 }

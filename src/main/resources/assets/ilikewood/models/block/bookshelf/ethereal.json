@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "side": "ilikewood:block/bookshelf/ethereal",
+    "end": "biomesoplenty:block/ethereal_planks"
+  }
+}

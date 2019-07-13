@@ -1,0 +1,10 @@
+{
+  "parent": "ilikewood:block/lectern/template",
+  "textures": {
+    "top": "ilikewood:block/lectern/top/fir",
+    "bottom": "biomesoplenty:block/fir_planks",
+    "sides": "ilikewood:block/lectern/sides/fir",
+    "front": "ilikewood:block/lectern/front/fir",
+    "base": "ilikewood:block/lectern/base/fir"
+  }
+}

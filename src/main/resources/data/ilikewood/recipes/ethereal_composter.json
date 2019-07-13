@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "F F",
+    "F F",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:ethereal_planks"
+    },
+    "F": {
+      "item": "biomesoplenty:ethereal_fence"
+    }
+  },
+  "result": {
+    "item": "ilikewood:ethereal_composter"
+  }
+}

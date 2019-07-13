@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    " B ",
+    " S "
+  ],
+  "key": {
+    "B": {
+      "item": "ilikewood:umbran_bookshelf"
+    },
+    "S": {
+      "item": "biomesoplenty:umbran_slab"
+    }
+  },
+  "result": {
+    "item": "ilikewood:umbran_lectern"
+  }
+}

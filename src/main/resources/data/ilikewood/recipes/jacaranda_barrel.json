@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PSP",
+    "P P",
+    "PSP"
+  ],
+  "key": {
+    "P": {
+      "item": "biomesoplenty:jacaranda_planks"
+    },
+    "S": {
+      "item": "biomesoplenty:jacaranda_slab"
+    }
+  },
+  "result": {
+    "item": "ilikewood:jacaranda_barrel"
+  }
+}
