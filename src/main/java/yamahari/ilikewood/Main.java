@@ -105,8 +105,17 @@ public class Main {
                             new WoodenBarrelBlock(woodType).setRegistryName(woodType.getName() + "_barrel"),
                             new WoodenBookshelfBlock().setRegistryName(woodType.getName() + "_bookshelf"),
                             new WoodenComposterBlock(woodType).setRegistryName(woodType.getName() + "_composter"),
-                            new WoodenLecternBlock(woodType).setRegistryName(woodType.getName() + "_lectern")
+                            new WoodenLecternBlock(woodType).setRegistryName(woodType.getName() + "_lectern"),
+                            new WoodenScaffoldingBlock(woodType).setRegistryName(woodType.getName() + "_scaffolding")
                     );
+                }
+
+                for(DyeColor dyeColor : DyeColor.values()) {
+                    for(WoodType woodType : WoodType.values(WoodType.SubType.BOP)) {
+                        registry.register(
+                                new WoodenBedBlock(woodType, dyeColor).setRegistryName(dyeColor.getName() + "_" + woodType.getName() + "_bed")
+                        );
+                    }
                 }
             }
         }
@@ -224,6 +233,14 @@ public class Main {
 
                 for(Block block : BoPConstants.LECTERNS) {
                     registry.register(new BlockItem(block, (new Item.Properties()).group(ItemGroup.REDSTONE)).setRegistryName(block.getRegistryName()));
+                }
+
+                for(Block block : BoPConstants.BEDS) {
+                    registry.register(new BedItem(block, (new Item.Properties()).group(ItemGroup.DECORATIONS)).setRegistryName(block.getRegistryName()));
+                }
+
+                for(Block block : BoPConstants.SCAFFOLDINGS) {
+                    registry.register(new WoodenScaffoldingItem(block, new Item.Properties().group(ItemGroup.DECORATIONS)).setRegistryName(block.getRegistryName()));
                 }
 
                 for(WoodType woodType : WoodType.values(WoodType.SubType.BOP)) {

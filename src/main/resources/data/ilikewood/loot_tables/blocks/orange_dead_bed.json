@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "name": "orange_dead_bed",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ilikewood:orange_dead_bed",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "ilikewood:orange_dead_bed",
+              "properties": {
+                "part": "head"
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}

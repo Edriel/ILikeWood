@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lime_bed",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lime_wool"
+    },
+    "X": {
+      "item": "biomesoplenty:cherry_planks"
+    }
+  },
+  "result": {
+    "item": "ilikewood:lime_cherry_bed"
+  }
+}

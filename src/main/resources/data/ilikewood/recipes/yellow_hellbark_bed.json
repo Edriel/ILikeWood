@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "yellow_bed",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:yellow_wool"
+    },
+    "X": {
+      "item": "biomesoplenty:hellbark_planks"
+    }
+  },
+  "result": {
+    "item": "ilikewood:yellow_hellbark_bed"
+  }
+}

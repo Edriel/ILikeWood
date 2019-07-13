@@ -1,0 +1,8 @@
+{
+  "parent": "ilikewood:block/bed/head/template",
+  "textures": {
+    "sheet": "entity/bed/yellow",
+    "planks": "biomesoplenty:blocks/palm_planks",
+    "frame": "ilikewood:block/bed/frame/palm"
+  }
+}

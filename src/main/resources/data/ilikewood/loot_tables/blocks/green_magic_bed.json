@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "name": "green_magic_bed",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ilikewood:green_magic_bed",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "ilikewood:green_magic_bed",
+              "properties": {
+                "part": "head"
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}

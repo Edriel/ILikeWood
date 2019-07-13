@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blue_bed",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:blue_wool"
+    },
+    "X": {
+      "item": "biomesoplenty:palm_planks"
+    }
+  },
+  "result": {
+    "item": "ilikewood:blue_palm_bed"
+  }
+}

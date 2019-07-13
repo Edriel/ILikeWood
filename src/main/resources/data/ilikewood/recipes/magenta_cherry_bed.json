@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "magenta_bed",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:magenta_wool"
+    },
+    "X": {
+      "item": "biomesoplenty:cherry_planks"
+    }
+  },
+  "result": {
+    "item": "ilikewood:magenta_cherry_bed"
+  }
+}

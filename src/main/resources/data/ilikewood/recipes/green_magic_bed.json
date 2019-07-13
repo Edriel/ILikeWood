@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "green_bed",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:green_wool"
+    },
+    "X": {
+      "item": "biomesoplenty:magic_planks"
+    }
+  },
+  "result": {
+    "item": "ilikewood:green_magic_bed"
+  }
+}

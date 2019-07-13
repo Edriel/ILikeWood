@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "white_bed",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:white_wool"
+    },
+    "X": {
+      "item": "biomesoplenty:jacaranda_planks"
+    }
+  },
+  "result": {
+    "item": "ilikewood:white_jacaranda_bed"
+  }
+}
