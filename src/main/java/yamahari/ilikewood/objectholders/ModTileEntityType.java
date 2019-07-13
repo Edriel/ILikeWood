@@ -29,4 +29,17 @@ public class ModTileEntityType {
     public static final TileEntityType<WoodenLecternTileEntity> birch_lectern = null;
     public static final TileEntityType<WoodenLecternTileEntity> jungle_lectern = null;
     public static final TileEntityType<WoodenLecternTileEntity> acacia_lectern = null;
+
+    public static final TileEntityType<WoodenBarrelTileEntity> cherry_barrel = null;
+    public static final TileEntityType<WoodenBarrelTileEntity> dead_barrel = null;
+    public static final TileEntityType<WoodenBarrelTileEntity> ethereal_barrel = null;
+    public static final TileEntityType<WoodenBarrelTileEntity> fir_barrel = null;
+    public static final TileEntityType<WoodenBarrelTileEntity> hellbark_barrel = null;
+    public static final TileEntityType<WoodenBarrelTileEntity> jacaranda_barrel = null;
+    public static final TileEntityType<WoodenBarrelTileEntity> magic_barrel = null;
+    public static final TileEntityType<WoodenBarrelTileEntity> mahogany_barrel = null;
+    public static final TileEntityType<WoodenBarrelTileEntity> palm_barrel = null;
+    public static final TileEntityType<WoodenBarrelTileEntity> redwood_barrel = null;
+    public static final TileEntityType<WoodenBarrelTileEntity> umbran_barrel = null;
+    public static final TileEntityType<WoodenBarrelTileEntity> willow_barrel = null;
 }

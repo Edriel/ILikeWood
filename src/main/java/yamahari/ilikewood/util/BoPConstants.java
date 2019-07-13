@@ -27,6 +27,22 @@ public class BoPConstants {
                 ModBlocks.willow_ladder
             );
 
+    public static final ImmutableSet<Block> BARRELS =
+            ImmutableSet.of(
+                    ModBlocks.cherry_barrel,
+                    ModBlocks.dead_barrel,
+                    ModBlocks.ethereal_barrel,
+                    ModBlocks.fir_barrel,
+                    ModBlocks.hellbark_barrel,
+                    ModBlocks.jacaranda_barrel,
+                    ModBlocks.magic_barrel,
+                    ModBlocks.mahogany_barrel,
+                    ModBlocks.palm_barrel,
+                    ModBlocks.redwood_barrel,
+                    ModBlocks.umbran_barrel,
+                    ModBlocks.willow_barrel
+            );
+
     static {
         Map<Block, Block> torches = new HashMap();
         torches.put(ModBlocks.cherry_torch, ModBlocks.cherry_wall_torch);

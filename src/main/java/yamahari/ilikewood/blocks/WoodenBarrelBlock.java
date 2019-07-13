@@ -1,6 +1,9 @@
 package yamahari.ilikewood.blocks;
 
-import net.minecraft.block.*;
+import net.minecraft.block.BarrelBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.Blocks;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
@@ -58,6 +61,30 @@ public class WoodenBarrelBlock extends BarrelBlock implements IWooden {
                 return ModTileEntityType.acacia_barrel;
             case JUNGLE:
                 return ModTileEntityType.jungle_barrel;
+            case CHERRY:
+                return ModTileEntityType.cherry_barrel;
+            case DEAD:
+                return ModTileEntityType.dead_barrel;
+            case ETHEREAL:
+                return ModTileEntityType.ethereal_barrel;
+            case FIR:
+                return ModTileEntityType.fir_barrel;
+            case HELLBARK:
+                return ModTileEntityType.hellbark_barrel;
+            case JACARANDA:
+                return ModTileEntityType.jacaranda_barrel;
+            case MAGIC:
+                return ModTileEntityType.magic_barrel;
+            case MAHOGANY:
+                return ModTileEntityType.mahogany_barrel;
+            case PALM:
+                return ModTileEntityType.palm_barrel;
+            case REDWOOD:
+                return ModTileEntityType.redwood_barrel;
+            case UMBRAN:
+                return ModTileEntityType.umbran_barrel;
+            case WILLOW:
+                return ModTileEntityType.willow_barrel;
         }
     }
 
@@ -84,7 +111,6 @@ public class WoodenBarrelBlock extends BarrelBlock implements IWooden {
                 ((WoodenBarrelTileEntity)lvt_6_1_).setCustomName(p_180633_5_.getDisplayName());
             }
         }
-
     }
 
     @Override

@@ -607,4 +607,17 @@ public class ModItems {
     public static final Item redwood_torch = null;
     public static final Item umbran_torch = null;
     public static final Item willow_torch = null;
+
+    public static final Item cherry_barrel = null;
+    public static final Item dead_barrel = null;
+    public static final Item ethereal_barrel = null;
+    public static final Item fir_barrel = null;
+    public static final Item hellbark_barrel = null;
+    public static final Item jacaranda_barrel = null;
+    public static final Item magic_barrel = null;
+    public static final Item mahogany_barrel = null;
+    public static final Item palm_barrel = null;
+    public static final Item redwood_barrel = null;
+    public static final Item umbran_barrel = null;
+    public static final Item willow_barrel = null;
 }

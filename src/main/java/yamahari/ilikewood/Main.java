@@ -5,7 +5,6 @@ import net.minecraft.block.Block;
 import net.minecraft.block.RotatedPillarBlock;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
-import net.minecraft.entity.merchant.villager.VillagerProfession;
 import net.minecraft.inventory.container.ContainerType;
 import net.minecraft.item.*;
 import net.minecraft.tileentity.TileEntityType;
@@ -27,7 +26,6 @@ import yamahari.ilikewood.blocks.torch.WoodenWallTorchBlock;
 import yamahari.ilikewood.container.WoodenLecternContainer;
 import yamahari.ilikewood.container.WoodenWorkbenchContainer;
 import yamahari.ilikewood.items.*;
-import yamahari.ilikewood.objectholders.ModBlocks;
 import yamahari.ilikewood.proxy.ClientProxy;
 import yamahari.ilikewood.proxy.CommonProxy;
 import yamahari.ilikewood.proxy.Proxy;
@@ -41,6 +39,7 @@ import yamahari.ilikewood.util.WoodType;
 
 import java.util.Map;
 
+@SuppressWarnings("unused")
 @Mod(Constants.MOD_ID)
 public class Main {
     public static final Logger logger = LogManager.getLogger(Constants.MOD_ID);
@@ -102,7 +101,8 @@ public class Main {
                     registry.registerAll(
                             new WoodenLadderBlock(woodType).setRegistryName(woodType.getName() + "_ladder"),
                             new WoodenTorchBlock(woodType).setRegistryName(woodType.getName() + "_torch"),
-                            new WoodenWallTorchBlock(woodType).setRegistryName(woodType.getName() + "_wall_torch")
+                            new WoodenWallTorchBlock(woodType).setRegistryName(woodType.getName() + "_wall_torch"),
+                            new WoodenBarrelBlock(woodType).setRegistryName(woodType.getName() + "_barrel")
                     );
                 }
             }
@@ -207,6 +207,10 @@ public class Main {
                     registry.register(new WallOrFloorItem(entry.getKey(), entry.getValue(), (new Item.Properties()).group(ItemGroup.DECORATIONS)).setRegistryName(entry.getKey().getRegistryName()));
                 }
 
+                for(Block block : BoPConstants.BARRELS) {
+                    registry.register(new BlockItem(block, (new Item.Properties()).group(ItemGroup.DECORATIONS)).setRegistryName(block.getRegistryName()));
+                }
+
                 for(WoodType woodType : WoodType.values(WoodType.SubType.BOP)) {
                     registry.register(new Item(new Item.Properties().group(ItemGroup.MATERIALS)).setRegistryName(woodType.getName() + "_stick"));
                 }
@@ -236,6 +240,15 @@ public class Main {
                 registry.register(
                         TileEntityType.Builder.create(() -> new WoodenLecternTileEntity(woodenLecternBlock.getTileEntityType(), woodenLecternBlock.getWoodType()), block).build(null).setRegistryName(woodenLecternBlock.getWoodType().getName() + "_lectern")
                 );
+            }
+
+            if(ModList.get().isLoaded("biomesoplenty")) {
+                for(Block block : BoPConstants.BARRELS) {
+                    WoodenBarrelBlock woodenBarrelBlock = (WoodenBarrelBlock)block;
+                    registry.register(
+                            TileEntityType.Builder.create(() -> new WoodenBarrelTileEntity(woodenBarrelBlock.getTileEntityType(), woodenBarrelBlock.getWoodType()), block).build(null).setRegistryName(woodenBarrelBlock.getWoodType().getName() + "_barrel")
+                    );
+                }
             }
         }
 

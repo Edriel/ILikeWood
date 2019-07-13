@@ -120,6 +120,31 @@ public class WoodenBarrelTileEntity extends LockableLootTileEntity {
                 return new TranslationTextComponent("container.ilikewood.jungle_barrel");
             case ACACIA:
                 return new TranslationTextComponent("container.ilikewood.acacia_barrel");
+            case CHERRY:
+                return new TranslationTextComponent("container.ilikewood.cherry_barrel");
+            case DEAD:
+                return new TranslationTextComponent("container.ilikewood.dead_barrel");
+            case ETHEREAL:
+                return new TranslationTextComponent("container.ilikewood.ethereal_barrel");
+            case FIR:
+                return new TranslationTextComponent("container.ilikewood.fir_barrel");
+            case HELLBARK:
+                return new TranslationTextComponent("container.ilikewood.hellbark_barrel");
+            case JACARANDA:
+                return new TranslationTextComponent("container.ilikewood.jacaranda_barrel");
+            case MAGIC:
+                return new TranslationTextComponent("container.ilikewood.magic_barrel");
+            case MAHOGANY:
+                return new TranslationTextComponent("container.ilikewood.mahogany_barrel");
+            case PALM:
+                return new TranslationTextComponent("container.ilikewood.palm_barrel");
+            case REDWOOD:
+                return new TranslationTextComponent("container.ilikewood.redwood_barrel");
+            case UMBRAN:
+                return new TranslationTextComponent("container.ilikewood.umbran_barrel");
+            case WILLOW:
+                return new TranslationTextComponent("container.ilikewood.willow_barrel");
+
         }
     }
 

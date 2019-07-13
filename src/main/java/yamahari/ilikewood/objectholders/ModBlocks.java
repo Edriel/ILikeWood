@@ -246,4 +246,17 @@ public class ModBlocks {
     public static final Block redwood_wall_torch = null;
     public static final Block umbran_wall_torch = null;
     public static final Block willow_wall_torch = null;
+
+    public static final Block cherry_barrel = null;
+    public static final Block dead_barrel = null;
+    public static final Block ethereal_barrel = null;
+    public static final Block fir_barrel = null;
+    public static final Block hellbark_barrel = null;
+    public static final Block jacaranda_barrel = null;
+    public static final Block magic_barrel = null;
+    public static final Block mahogany_barrel = null;
+    public static final Block palm_barrel = null;
+    public static final Block redwood_barrel = null;
+    public static final Block umbran_barrel = null;
+    public static final Block willow_barrel = null;
 }
