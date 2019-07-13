@@ -7,14 +7,6 @@
     },
     {
       "when": {
-        "level": "0"
-      },
-      "apply": {
-        "model": "block/composter_contents0"
-      }
-    },
-    {
-      "when": {
         "level": "1"
       },
       "apply": {
