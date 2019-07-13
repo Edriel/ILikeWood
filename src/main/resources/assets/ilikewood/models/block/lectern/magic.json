@@ -2,7 +2,7 @@
   "parent": "ilikewood:block/lectern/template",
   "textures": {
     "top": "ilikewood:block/lectern/top/magic",
-    "bottom": "biomesoplenty:block/magic_planks",
+    "bottom": "biomesoplenty:blocks/magic_planks",
     "sides": "ilikewood:block/lectern/sides/magic",
     "front": "ilikewood:block/lectern/front/magic",
     "base": "ilikewood:block/lectern/base/magic"

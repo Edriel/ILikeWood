@@ -2,6 +2,6 @@
   "parent": "block/cube_column",
   "textures": {
     "side": "ilikewood:block/bookshelf/umbran",
-    "end": "biomesoplenty:block/umbran_planks"
+    "end": "biomesoplenty:blocks/umbran_planks"
   }
 }

@@ -2,7 +2,7 @@
   "parent": "ilikewood:block/lectern/template",
   "textures": {
     "top": "ilikewood:block/lectern/top/umbran",
-    "bottom": "biomesoplenty:block/umbran_planks",
+    "bottom": "biomesoplenty:blocks/umbran_planks",
     "sides": "ilikewood:block/lectern/sides/umbran",
     "front": "ilikewood:block/lectern/front/umbran",
     "base": "ilikewood:block/lectern/base/umbran"

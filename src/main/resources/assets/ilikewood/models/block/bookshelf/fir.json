@@ -2,6 +2,6 @@
   "parent": "block/cube_column",
   "textures": {
     "side": "ilikewood:block/bookshelf/fir",
-    "end": "biomesoplenty:block/fir_planks"
+    "end": "biomesoplenty:blocks/fir_planks"
   }
 }

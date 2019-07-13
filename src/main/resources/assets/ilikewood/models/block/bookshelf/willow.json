@@ -2,6 +2,6 @@
   "parent": "block/cube_column",
   "textures": {
     "side": "ilikewood:block/bookshelf/willow",
-    "end": "biomesoplenty:block/willow_planks"
+    "end": "biomesoplenty:blocks/willow_planks"
   }
 }

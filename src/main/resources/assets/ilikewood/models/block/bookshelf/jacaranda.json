@@ -2,6 +2,6 @@
   "parent": "block/cube_column",
   "textures": {
     "side": "ilikewood:block/bookshelf/jacaranda",
-    "end": "biomesoplenty:block/jacaranda_planks"
+    "end": "biomesoplenty:blocks/jacaranda_planks"
   }
 }

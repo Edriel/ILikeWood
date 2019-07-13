@@ -2,6 +2,6 @@
   "parent": "block/cube_column",
   "textures": {
     "side": "ilikewood:block/bookshelf/redwood",
-    "end": "biomesoplenty:block/redwood_planks"
+    "end": "biomesoplenty:blocks/redwood_planks"
   }
 }

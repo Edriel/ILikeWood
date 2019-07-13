@@ -2,7 +2,7 @@
   "parent": "ilikewood:block/lectern/template",
   "textures": {
     "top": "ilikewood:block/lectern/top/hellbark",
-    "bottom": "biomesoplenty:block/hellbark_planks",
+    "bottom": "biomesoplenty:blocks/hellbark_planks",
     "sides": "ilikewood:block/lectern/sides/hellbark",
     "front": "ilikewood:block/lectern/front/hellbark",
     "base": "ilikewood:block/lectern/base/hellbark"

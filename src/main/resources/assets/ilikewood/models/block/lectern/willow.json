@@ -2,7 +2,7 @@
   "parent": "ilikewood:block/lectern/template",
   "textures": {
     "top": "ilikewood:block/lectern/top/willow",
-    "bottom": "biomesoplenty:block/willow_planks",
+    "bottom": "biomesoplenty:blocks/willow_planks",
     "sides": "ilikewood:block/lectern/sides/willow",
     "front": "ilikewood:block/lectern/front/willow",
     "base": "ilikewood:block/lectern/base/willow"
