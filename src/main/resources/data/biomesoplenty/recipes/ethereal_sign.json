@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " X "
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:ethereal_planks"
+    },
+    "X": {
+      "item": "ilikewood:ethereal_stick"
+    }
+  },
+  "result": {
+    "item": "biomesoplenty:ethereal_sign",
+    "count": 3
+  }
+}

@@ -312,6 +312,32 @@ public class ModBlocks {
     public static final Block umbran_scaffolding = null;
     public static final Block willow_scaffolding = null;
 
+    public static final Block cherry_wall = null;
+    public static final Block dead_wall = null;
+    public static final Block ethereal_wall = null;
+    public static final Block fir_wall = null;
+    public static final Block hellbark_wall = null;
+    public static final Block jacaranda_wall = null;
+    public static final Block magic_wall = null;
+    public static final Block mahogany_wall = null;
+    public static final Block palm_wall = null;
+    public static final Block redwood_wall = null;
+    public static final Block umbran_wall = null;
+    public static final Block willow_wall = null;
+
+    public static final Block cherry_chest = null;
+    public static final Block dead_chest = null;
+    public static final Block ethereal_chest = null;
+    public static final Block fir_chest = null;
+    public static final Block hellbark_chest = null;
+    public static final Block jacaranda_chest = null;
+    public static final Block magic_chest = null;
+    public static final Block mahogany_chest = null;
+    public static final Block palm_chest = null;
+    public static final Block redwood_chest = null;
+    public static final Block umbran_chest = null;
+    public static final Block willow_chest = null;
+    
     public static final Block black_cherry_bed = null;
     public static final Block black_dead_bed = null;
     public static final Block black_ethereal_bed = null;

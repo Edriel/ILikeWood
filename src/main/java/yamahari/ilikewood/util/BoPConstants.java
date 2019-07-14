@@ -107,6 +107,38 @@ public class BoPConstants {
                     ModBlocks.willow_scaffolding
             );
 
+    public static final ImmutableSet<Block> WALLS =
+            ImmutableSet.of(
+                    ModBlocks.cherry_wall,
+                    ModBlocks.dead_wall,
+                    ModBlocks.ethereal_wall,
+                    ModBlocks.fir_wall,
+                    ModBlocks.hellbark_wall,
+                    ModBlocks.jacaranda_wall,
+                    ModBlocks.magic_wall,
+                    ModBlocks.mahogany_wall,
+                    ModBlocks.palm_wall,
+                    ModBlocks.redwood_wall,
+                    ModBlocks.umbran_wall,
+                    ModBlocks.willow_wall
+            );
+
+    public static final ImmutableSet<Block> CHESTS =
+            ImmutableSet.of(
+                    ModBlocks.cherry_chest,
+                    ModBlocks.dead_chest,
+                    ModBlocks.ethereal_chest,
+                    ModBlocks.fir_chest,
+                    ModBlocks.hellbark_chest,
+                    ModBlocks.jacaranda_chest,
+                    ModBlocks.magic_chest,
+                    ModBlocks.mahogany_chest,
+                    ModBlocks.palm_chest,
+                    ModBlocks.redwood_chest,
+                    ModBlocks.umbran_chest,
+                    ModBlocks.willow_chest
+            );
+
     public static final ImmutableSet<Block> BEDS =
             ImmutableSet.of(
                     ModBlocks.black_cherry_bed,

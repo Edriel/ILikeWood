@@ -1,6 +1,7 @@
 {
-    "parent": "block/wall_inventory",
-    "textures": {
-        "wall": "block/acacia_log"
-    }
+  "parent": "ilikewood:block/wall/inventory/template",
+  "textures": {
+    "side": "block/stripped_acacia_log",
+    "post": "block/acacia_log"
+  }
 }

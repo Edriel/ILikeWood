@@ -1,0 +1,6 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "biomesoplenty:blocks/stripped_umbran_log"
+  }
+}

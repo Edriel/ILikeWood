@@ -672,6 +672,32 @@ public class ModItems {
     public static final Item redwood_scaffolding = null;
     public static final Item umbran_scaffolding = null;
     public static final Item willow_scaffolding = null;
+
+    public static final Item cherry_wall = null;
+    public static final Item dead_wall = null;
+    public static final Item ethereal_wall = null;
+    public static final Item fir_wall = null;
+    public static final Item hellbark_wall = null;
+    public static final Item jacaranda_wall = null;
+    public static final Item magic_wall = null;
+    public static final Item mahogany_wall = null;
+    public static final Item palm_wall = null;
+    public static final Item redwood_wall = null;
+    public static final Item umbran_wall = null;
+    public static final Item willow_wall = null;
+
+    public static final Item cherry_chest = null;
+    public static final Item dead_chest = null;
+    public static final Item ethereal_chest = null;
+    public static final Item fir_chest = null;
+    public static final Item hellbark_chest = null;
+    public static final Item jacaranda_chest = null;
+    public static final Item magic_chest = null;
+    public static final Item mahogany_chest = null;
+    public static final Item palm_chest = null;
+    public static final Item redwood_chest = null;
+    public static final Item umbran_chest = null;
+    public static final Item willow_chest = null;
     
     public static final Item black_cherry_bed = null;
     public static final Item black_dead_bed = null;

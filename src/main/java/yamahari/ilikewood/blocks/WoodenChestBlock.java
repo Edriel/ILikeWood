@@ -154,6 +154,30 @@ public class WoodenChestBlock extends ChestBlock implements IWooden {
                 return ModTileEntityType.acacia_chest;
             case JUNGLE:
                 return ModTileEntityType.jungle_chest;
+            case CHERRY:
+                return ModTileEntityType.cherry_chest;
+            case DEAD:
+                return ModTileEntityType.dead_chest;
+            case ETHEREAL:
+                return ModTileEntityType.ethereal_chest;
+            case FIR:
+                return ModTileEntityType.fir_chest;
+            case HELLBARK:
+                return ModTileEntityType.hellbark_chest;
+            case JACARANDA:
+                return ModTileEntityType.jacaranda_chest;
+            case MAGIC:
+                return ModTileEntityType.magic_chest;
+            case MAHOGANY:
+                return ModTileEntityType.mahogany_chest;
+            case PALM:
+                return ModTileEntityType.palm_chest;
+            case REDWOOD:
+                return ModTileEntityType.redwood_chest;
+            case UMBRAN:
+                return ModTileEntityType.umbran_chest;
+            case WILLOW:
+                return ModTileEntityType.willow_chest;
         }
     }
 

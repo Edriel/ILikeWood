@@ -97,6 +97,30 @@ public class WoodenChestTileEntity extends LockableLootTileEntity implements ICh
                 return new TranslationTextComponent("container.ilikewood.jungle_chest");
             case ACACIA:
                 return new TranslationTextComponent("container.ilikewood.acacia_chest");
+            case CHERRY:
+                return new TranslationTextComponent("container.ilikewood.cherry_chest");
+            case DEAD:
+                return new TranslationTextComponent("container.ilikewood.dead_chest");
+            case ETHEREAL:
+                return new TranslationTextComponent("container.ilikewood.ethereal_chest");
+            case FIR:
+                return new TranslationTextComponent("container.ilikewood.fir_chest");
+            case HELLBARK:
+                return new TranslationTextComponent("container.ilikewood.hellbark_chest");
+            case JACARANDA:
+                return new TranslationTextComponent("container.ilikewood.jacaranda_chest");
+            case MAGIC:
+                return new TranslationTextComponent("container.ilikewood.magic_chest");
+            case MAHOGANY:
+                return new TranslationTextComponent("container.ilikewood.mahogany_chest");
+            case PALM:
+                return new TranslationTextComponent("container.ilikewood.palm_chest");
+            case REDWOOD:
+                return new TranslationTextComponent("container.ilikewood.redwood_chest");
+            case UMBRAN:
+                return new TranslationTextComponent("container.ilikewood.umbran_chest");
+            case WILLOW:
+                return new TranslationTextComponent("container.ilikewood.willow_chest");
         }
     }
 

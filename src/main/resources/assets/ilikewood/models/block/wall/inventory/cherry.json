@@ -1,0 +1,7 @@
+{
+  "parent": "ilikewood:block/wall/inventory/template",
+  "textures": {
+    "side": "biomesoplenty:blocks/stripped_cherry_log",
+    "post": "biomesoplenty:blocks/cherry_log"
+  }
+}

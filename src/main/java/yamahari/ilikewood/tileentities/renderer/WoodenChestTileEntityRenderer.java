@@ -31,6 +31,32 @@ public class WoodenChestTileEntityRenderer<T extends TileEntity & IChestLid> ext
     private static ResourceLocation TEXTURE_JUNGLE_DOUBLE = new ResourceLocation(Constants.MOD_ID, "textures/entity/chest/jungle_double.png");
     private static ResourceLocation TEXTURE_ACACIA_DOUBLE = new ResourceLocation(Constants.MOD_ID, "textures/entity/chest/acacia_double.png");
 
+    private static ResourceLocation TEXTURE_CHERRY = new ResourceLocation(Constants.MOD_ID, "textures/entity/chest/cherry.png");
+    private static ResourceLocation TEXTURE_DEAD = new ResourceLocation(Constants.MOD_ID, "textures/entity/chest/dead.png");
+    private static ResourceLocation TEXTURE_ETHEREAL = new ResourceLocation(Constants.MOD_ID, "textures/entity/chest/ethereal.png");
+    private static ResourceLocation TEXTURE_FIR = new ResourceLocation(Constants.MOD_ID, "textures/entity/chest/fir.png");
+    private static ResourceLocation TEXTURE_HELLBARK = new ResourceLocation(Constants.MOD_ID, "textures/entity/chest/hellbark.png");
+    private static ResourceLocation TEXTURE_JACARANDA = new ResourceLocation(Constants.MOD_ID, "textures/entity/chest/jacaranda.png");
+    private static ResourceLocation TEXTURE_MAGIC = new ResourceLocation(Constants.MOD_ID, "textures/entity/chest/magic.png");
+    private static ResourceLocation TEXTURE_MAHOGANY = new ResourceLocation(Constants.MOD_ID, "textures/entity/chest/mahogany.png");
+    private static ResourceLocation TEXTURE_PALM = new ResourceLocation(Constants.MOD_ID, "textures/entity/chest/palm.png");
+    private static ResourceLocation TEXTURE_REDWOOD = new ResourceLocation(Constants.MOD_ID, "textures/entity/chest/redwood.png");
+    private static ResourceLocation TEXTURE_UMBRAN = new ResourceLocation(Constants.MOD_ID, "textures/entity/chest/umbran.png");
+    private static ResourceLocation TEXTURE_WILLOW = new ResourceLocation(Constants.MOD_ID, "textures/entity/chest/willow.png");
+
+    private static ResourceLocation TEXTURE_CHERRY_DOUBLE = new ResourceLocation(Constants.MOD_ID, "textures/entity/chest/cherry_double.png");
+    private static ResourceLocation TEXTURE_DEAD_DOUBLE = new ResourceLocation(Constants.MOD_ID, "textures/entity/chest/dead_double.png");
+    private static ResourceLocation TEXTURE_ETHEREAL_DOUBLE = new ResourceLocation(Constants.MOD_ID, "textures/entity/chest/ethereal_double.png");
+    private static ResourceLocation TEXTURE_FIR_DOUBLE = new ResourceLocation(Constants.MOD_ID, "textures/entity/chest/fir_double.png");
+    private static ResourceLocation TEXTURE_HELLBARK_DOUBLE = new ResourceLocation(Constants.MOD_ID, "textures/entity/chest/hellbark_double.png");
+    private static ResourceLocation TEXTURE_JACARANDA_DOUBLE = new ResourceLocation(Constants.MOD_ID, "textures/entity/chest/jacaranda_double.png");
+    private static ResourceLocation TEXTURE_MAGIC_DOUBLE = new ResourceLocation(Constants.MOD_ID, "textures/entity/chest/magic_double.png");
+    private static ResourceLocation TEXTURE_MAHOGANY_DOUBLE = new ResourceLocation(Constants.MOD_ID, "textures/entity/chest/mahogany_double.png");
+    private static ResourceLocation TEXTURE_PALM_DOUBLE = new ResourceLocation(Constants.MOD_ID, "textures/entity/chest/palm_double.png");
+    private static ResourceLocation TEXTURE_REDWOOD_DOUBLE = new ResourceLocation(Constants.MOD_ID, "textures/entity/chest/redwood_double.png");
+    private static ResourceLocation TEXTURE_UMBRAN_DOUBLE = new ResourceLocation(Constants.MOD_ID, "textures/entity/chest/umbran_double.png");
+    private static ResourceLocation TEXTURE_WILLOW_DOUBLE = new ResourceLocation(Constants.MOD_ID, "textures/entity/chest/willow_double.png");
+    
     private final ChestModel simpleChest = new ChestModel();
     private final ChestModel largeChest = new LargeChestModel();
 
@@ -105,6 +131,42 @@ public class WoodenChestTileEntityRenderer<T extends TileEntity & IChestLid> ext
                     break;
                 case JUNGLE:
                     lvt_4_5_ = !p_199347_3_ ? TEXTURE_JUNGLE : TEXTURE_JUNGLE_DOUBLE;
+                    break;
+                case CHERRY:
+                    lvt_4_5_ = !p_199347_3_ ? TEXTURE_CHERRY : TEXTURE_CHERRY_DOUBLE;
+                    break;
+                case DEAD:
+                    lvt_4_5_ = !p_199347_3_ ? TEXTURE_DEAD : TEXTURE_DEAD_DOUBLE;
+                    break;
+                case ETHEREAL:
+                    lvt_4_5_ = !p_199347_3_ ? TEXTURE_ETHEREAL : TEXTURE_ETHEREAL_DOUBLE;
+                    break;
+                case FIR:
+                    lvt_4_5_ = !p_199347_3_ ? TEXTURE_FIR : TEXTURE_FIR_DOUBLE;
+                    break;
+                case HELLBARK:
+                    lvt_4_5_ = !p_199347_3_ ? TEXTURE_HELLBARK : TEXTURE_HELLBARK_DOUBLE;
+                    break;
+                case JACARANDA:
+                    lvt_4_5_ = !p_199347_3_ ? TEXTURE_JACARANDA : TEXTURE_JACARANDA_DOUBLE;
+                    break;
+                case MAGIC:
+                    lvt_4_5_ = !p_199347_3_ ? TEXTURE_MAGIC : TEXTURE_MAGIC_DOUBLE;
+                    break;
+                case MAHOGANY:
+                    lvt_4_5_ = !p_199347_3_ ? TEXTURE_MAHOGANY : TEXTURE_MAHOGANY_DOUBLE;
+                    break;
+                case PALM:
+                    lvt_4_5_ = !p_199347_3_ ? TEXTURE_PALM : TEXTURE_PALM_DOUBLE;
+                    break;
+                case REDWOOD:
+                    lvt_4_5_ = !p_199347_3_ ? TEXTURE_REDWOOD : TEXTURE_REDWOOD_DOUBLE;
+                    break;
+                case UMBRAN:
+                    lvt_4_5_ = !p_199347_3_ ? TEXTURE_UMBRAN : TEXTURE_UMBRAN_DOUBLE;
+                    break;
+                case WILLOW:
+                    lvt_4_5_ = !p_199347_3_ ? TEXTURE_WILLOW : TEXTURE_WILLOW_DOUBLE;
                     break;
             }
         }

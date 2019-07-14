@@ -106,7 +106,9 @@ public class Main {
                             new WoodenBookshelfBlock().setRegistryName(woodType.getName() + "_bookshelf"),
                             new WoodenComposterBlock(woodType).setRegistryName(woodType.getName() + "_composter"),
                             new WoodenLecternBlock(woodType).setRegistryName(woodType.getName() + "_lectern"),
-                            new WoodenScaffoldingBlock(woodType).setRegistryName(woodType.getName() + "_scaffolding")
+                            new WoodenScaffoldingBlock(woodType).setRegistryName(woodType.getName() + "_scaffolding"),
+                            WoodenWallBlock.builder(woodType).setRegistryName(woodType.getName() + "_wall"),
+                            new WoodenChestBlock(woodType).setRegistryName(woodType.getName() + "_chest")
                     );
                 }
 
@@ -243,6 +245,14 @@ public class Main {
                     registry.register(new WoodenScaffoldingItem(block, new Item.Properties().group(ItemGroup.DECORATIONS)).setRegistryName(block.getRegistryName()));
                 }
 
+                for(Block block : BoPConstants.WALLS) {
+                    registry.register(new BlockItem(block, (new Item.Properties()).group(ItemGroup.DECORATIONS)).setRegistryName(block.getRegistryName()));
+                }
+
+                for(Block block : BoPConstants.CHESTS) {
+                    registry.register(new BlockItem(block, (new Item.Properties()).group(ItemGroup.DECORATIONS).setTEISR(() -> WoodenChestItemStackTileEntityRenderer::new)).setRegistryName(block.getRegistryName()));
+                }
+
                 for(WoodType woodType : WoodType.values(WoodType.SubType.BOP)) {
                     registry.register(new Item(new Item.Properties().group(ItemGroup.MATERIALS)).setRegistryName(woodType.getName() + "_stick"));
                 }
@@ -286,6 +296,13 @@ public class Main {
                     WoodenLecternBlock woodenLecternBlock = (WoodenLecternBlock)block;
                     registry.register(
                             TileEntityType.Builder.create(() -> new WoodenLecternTileEntity(woodenLecternBlock.getTileEntityType(), woodenLecternBlock.getWoodType()), block).build(null).setRegistryName(woodenLecternBlock.getWoodType().getName() + "_lectern")
+                    );
+                }
+
+                for(Block block : BoPConstants.CHESTS) {
+                    WoodenChestBlock woodenChestBlock = (WoodenChestBlock)block;
+                    registry.register(
+                            TileEntityType.Builder.create(() -> new WoodenChestTileEntity(woodenChestBlock.getTileEntityType(), woodenChestBlock.getWoodType()), block).build(null).setRegistryName(woodenChestBlock.getWoodType().getName() + "_chest")
                     );
                 }
             }

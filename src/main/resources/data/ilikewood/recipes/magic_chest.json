@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:magic_planks"
+    }
+  },
+  "result": {
+    "item": "ilikewood:magic_chest"
+  }
+}

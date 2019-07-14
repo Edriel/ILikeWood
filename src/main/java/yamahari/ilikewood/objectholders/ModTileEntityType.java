@@ -55,4 +55,17 @@ public class ModTileEntityType {
     public static final TileEntityType<WoodenLecternTileEntity> redwood_lectern = null;
     public static final TileEntityType<WoodenLecternTileEntity> umbran_lectern = null;
     public static final TileEntityType<WoodenLecternTileEntity> willow_lectern = null;
+
+    public static final TileEntityType<WoodenChestTileEntity> cherry_chest = null;
+    public static final TileEntityType<WoodenChestTileEntity> dead_chest = null;
+    public static final TileEntityType<WoodenChestTileEntity> ethereal_chest = null;
+    public static final TileEntityType<WoodenChestTileEntity> fir_chest = null;
+    public static final TileEntityType<WoodenChestTileEntity> hellbark_chest = null;
+    public static final TileEntityType<WoodenChestTileEntity> jacaranda_chest = null;
+    public static final TileEntityType<WoodenChestTileEntity> magic_chest = null;
+    public static final TileEntityType<WoodenChestTileEntity> mahogany_chest = null;
+    public static final TileEntityType<WoodenChestTileEntity> palm_chest = null;
+    public static final TileEntityType<WoodenChestTileEntity> redwood_chest = null;
+    public static final TileEntityType<WoodenChestTileEntity> umbran_chest = null;
+    public static final TileEntityType<WoodenChestTileEntity> willow_chest = null;
 }
