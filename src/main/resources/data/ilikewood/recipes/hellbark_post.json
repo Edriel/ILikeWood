@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:hellbark_log"
+    }
+  },
+  "result": {
+    "item": "ilikewood:hellbark_post",
+    "count": 6
+  }
+}

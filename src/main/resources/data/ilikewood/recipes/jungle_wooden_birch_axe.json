@@ -1,20 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "XX",
-    "X#",
-    " #"
+    "##",
+    "#I",
+    " I"
   ],
   "key": {
     "#": {
-      "item": "ilikewood:birch_stick"
-    },
-    "X": {
       "item": "minecraft:jungle_planks"
+    },
+    "I": {
+      "item": "ilikewood:birch_stick"
     }
   },
   "result": {
-    "item": "ilikewood:jungle_wooden_birch_axe",
-    "count": 1
+    "item": "ilikewood:jungle_wooden_birch_axe"
   }
 }

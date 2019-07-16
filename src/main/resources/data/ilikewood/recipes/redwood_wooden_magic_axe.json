@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "#I",
+    " I"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:redwood_planks"
+    },
+    "I": {
+      "item": "ilikewood:magic_stick"
+    }
+  },
+  "result": {
+    "item": "ilikewood:redwood_wooden_magic_axe"
+  }
+}

@@ -1,20 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "XXX",
-    " # ",
-    " # "
+    "###",
+    " I ",
+    " I "
   ],
   "key": {
     "#": {
-      "item": "ilikewood:spruce_stick"
-    },
-    "X": {
       "item": "minecraft:iron_ingot"
+    },
+    "I": {
+      "item": "ilikewood:spruce_stick"
     }
   },
   "result": {
-    "item": "ilikewood:iron_spruce_pickaxe",
-    "count": 1
+    "item": "ilikewood:iron_spruce_pickaxe"
   }
 }

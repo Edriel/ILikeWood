@@ -1,20 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "X",
-    "X",
-    "#"
+    "#",
+    "#",
+    "I"
   ],
   "key": {
     "#": {
-      "item": "ilikewood:jungle_stick"
-    },
-    "X": {
       "item": "minecraft:cobblestone"
+    },
+    "I": {
+      "item": "ilikewood:jungle_stick"
     }
   },
   "result": {
-    "item": "ilikewood:stone_jungle_sword",
-    "count": 1
+    "item": "ilikewood:stone_jungle_sword"
   }
 }

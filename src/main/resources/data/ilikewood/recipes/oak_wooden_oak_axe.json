@@ -1,20 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "XX",
-    "X#",
-    " #"
+    "##",
+    "#I",
+    " I"
   ],
   "key": {
     "#": {
-      "item": "ilikewood:oak_stick"
-    },
-    "X": {
       "item": "minecraft:oak_planks"
+    },
+    "I": {
+      "item": "ilikewood:oak_stick"
     }
   },
   "result": {
-    "item": "ilikewood:oak_wooden_oak_axe",
-    "count": 1
+    "item": "ilikewood:oak_wooden_oak_axe"
   }
 }

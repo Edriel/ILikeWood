@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    " I",
+    " I"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "I": {
+      "item": "ilikewood:redwood_stick"
+    }
+  },
+  "result": {
+    "item": "ilikewood:diamond_redwood_hoe"
+  }
+}

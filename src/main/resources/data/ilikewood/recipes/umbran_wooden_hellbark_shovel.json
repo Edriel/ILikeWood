@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "I",
+    "I"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:umbran_planks"
+    },
+    "I": {
+      "item": "ilikewood:hellbark_stick"
+    }
+  },
+  "result": {
+    "item": "ilikewood:umbran_wooden_hellbark_shovel"
+  }
+}

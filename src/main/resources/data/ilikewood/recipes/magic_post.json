@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:magic_log"
+    }
+  },
+  "result": {
+    "item": "ilikewood:magic_post",
+    "count": 6
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "I"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:dead_planks"
+    },
+    "I": {
+      "item": "ilikewood:spruce_stick"
+    }
+  },
+  "result": {
+    "item": "ilikewood:dead_wooden_spruce_sword"
+  }
+}

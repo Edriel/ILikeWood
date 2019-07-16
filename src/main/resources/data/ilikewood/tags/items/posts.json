@@ -7,11 +7,17 @@
     "ilikewood:birch_post",
     "ilikewood:acacia_post",
     "ilikewood:jungle_post",
-		"ilikewood:stripped_oak_post",
-    "ilikewood:stripped_dark_oak_post",
-    "ilikewood:stripped_spruce_post",
-    "ilikewood:stripped_birch_post",
-    "ilikewood:stripped_acacia_post",
-    "ilikewood:stripped_jungle_post"
+    "ilikewood:cherry_post",
+    "ilikewood:dead_post",
+    "ilikewood:ethereal_post",
+    "ilikewood:fir_post",
+    "ilikewood:hellbark_post",
+    "ilikewood:jacaranda_post",
+    "ilikewood:magic_post",
+    "ilikewood:mahogany_post",
+    "ilikewood:palm_post",
+    "ilikewood:redwood_post",
+    "ilikewood:umbran_post",
+    "ilikewood:willow_post"
   ]
 }

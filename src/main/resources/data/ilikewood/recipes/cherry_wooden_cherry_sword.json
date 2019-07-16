@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "I"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:cherry_planks"
+    },
+    "I": {
+      "item": "ilikewood:cherry_stick"
+    }
+  },
+  "result": {
+    "item": "ilikewood:cherry_wooden_cherry_sword"
+  }
+}

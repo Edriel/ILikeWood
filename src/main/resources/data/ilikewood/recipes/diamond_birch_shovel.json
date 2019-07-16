@@ -1,20 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "X",
     "#",
-    "#"
+    "I",
+    "I"
   ],
   "key": {
     "#": {
-      "item": "ilikewood:birch_stick"
-    },
-    "X": {
       "item": "minecraft:diamond"
+    },
+    "I": {
+      "item": "ilikewood:birch_stick"
     }
   },
   "result": {
-    "item": "ilikewood:diamond_birch_shovel",
-    "count": 1
+    "item": "ilikewood:diamond_birch_shovel"
   }
 }

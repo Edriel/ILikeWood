@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "I"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:palm_planks"
+    },
+    "I": {
+      "item": "ilikewood:acacia_stick"
+    }
+  },
+  "result": {
+    "item": "ilikewood:palm_wooden_acacia_sword"
+  }
+}

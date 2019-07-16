@@ -1,7 +1,6 @@
 {
-    "parent": "block/cube_column",
+    "parent": "ilikewood:block/panels/template",
     "textures": {
-        "end": "block/jungle_planks",
-        "side": "ilikewood:block/panels/jungle"
+        "planks": "block/jungle_planks"
     }
 }

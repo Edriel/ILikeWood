@@ -250,7 +250,19 @@ public class Constants {
                     .put(ModBlocks.spruce_post, ModBlocks.stripped_spruce_post)
                     .put(ModBlocks.birch_post, ModBlocks.stripped_birch_post)
                     .put(ModBlocks.jungle_post, ModBlocks.stripped_jungle_post)
-                    .put(ModBlocks.acacia_post, ModBlocks.stripped_acacia_post).build();
+                    .put(ModBlocks.acacia_post, ModBlocks.stripped_acacia_post)
+                    .put(ModBlocks.cherry_post, ModBlocks.stripped_cherry_post)
+                    .put(ModBlocks.dead_post, ModBlocks.stripped_dead_post)
+                    .put(ModBlocks.ethereal_post, ModBlocks.stripped_ethereal_post)
+                    .put(ModBlocks.fir_post, ModBlocks.stripped_fir_post)
+                    .put(ModBlocks.hellbark_post, ModBlocks.stripped_hellbark_post)
+                    .put(ModBlocks.jacaranda_post, ModBlocks.stripped_jacaranda_post)
+                    .put(ModBlocks.magic_post, ModBlocks.stripped_magic_post)
+                    .put(ModBlocks.mahogany_post, ModBlocks.stripped_magic_post)
+                    .put(ModBlocks.palm_post, ModBlocks.stripped_palm_post)
+                    .put(ModBlocks.redwood_post, ModBlocks.stripped_redwood_post)
+                    .put(ModBlocks.umbran_post, ModBlocks.stripped_umbran_post)
+                    .put(ModBlocks.willow_post, ModBlocks.stripped_willow_post).build();
 
     public static final Map<String, ItemTier> ITEM_TIER_MAP =
             (new ImmutableMap.Builder<String, ItemTier>())

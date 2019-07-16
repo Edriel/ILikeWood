@@ -1,20 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "XX",
-    "X#",
-    " #"
+    "##",
+    "#I",
+    " I"
   ],
   "key": {
     "#": {
-      "item": "ilikewood:jungle_stick"
-    },
-    "X": {
       "item": "minecraft:diamond"
+    },
+    "I": {
+      "item": "ilikewood:jungle_stick"
     }
   },
   "result": {
-    "item": "ilikewood:diamond_jungle_axe",
-    "count": 1
+    "item": "ilikewood:diamond_jungle_axe"
   }
 }

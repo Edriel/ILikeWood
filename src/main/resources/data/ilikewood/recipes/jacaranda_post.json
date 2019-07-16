@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:jacaranda_log"
+    }
+  },
+  "result": {
+    "item": "ilikewood:jacaranda_post",
+    "count": 6
+  }
+}

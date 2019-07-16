@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:umbran_log"
+    }
+  },
+  "result": {
+    "item": "ilikewood:umbran_post",
+    "count": 6
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "I"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:umbran_planks"
+    },
+    "I": {
+      "item": "ilikewood:dark_oak_stick"
+    }
+  },
+  "result": {
+    "item": "ilikewood:umbran_wooden_dark_oak_sword"
+  }
+}

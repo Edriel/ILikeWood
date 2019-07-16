@@ -686,6 +686,19 @@ public class ModItems {
     public static final Item umbran_wall = null;
     public static final Item willow_wall = null;
 
+    public static final Item cherry_panels = null;
+    public static final Item dead_panels = null;
+    public static final Item ethereal_panels = null;
+    public static final Item fir_panels = null;
+    public static final Item hellbark_panels = null;
+    public static final Item jacaranda_panels = null;
+    public static final Item magic_panels = null;
+    public static final Item mahogany_panels = null;
+    public static final Item palm_panels = null;
+    public static final Item redwood_panels = null;
+    public static final Item umbran_panels = null;
+    public static final Item willow_panels = null;
+    
     public static final Item cherry_chest = null;
     public static final Item dead_chest = null;
     public static final Item ethereal_chest = null;
@@ -698,6 +711,32 @@ public class ModItems {
     public static final Item redwood_chest = null;
     public static final Item umbran_chest = null;
     public static final Item willow_chest = null;
+
+    public static final Item stripped_cherry_post = null;
+    public static final Item stripped_dead_post = null;
+    public static final Item stripped_ethereal_post = null;
+    public static final Item stripped_fir_post = null;
+    public static final Item stripped_hellbark_post = null;
+    public static final Item stripped_jacaranda_post = null;
+    public static final Item stripped_magic_post = null;
+    public static final Item stripped_mahogany_post = null;
+    public static final Item stripped_palm_post = null;
+    public static final Item stripped_redwood_post = null;
+    public static final Item stripped_umbran_post = null;
+    public static final Item stripped_willow_post = null;
+
+    public static final Item cherry_post = null;
+    public static final Item dead_post = null;
+    public static final Item ethereal_post = null;
+    public static final Item fir_post = null;
+    public static final Item hellbark_post = null;
+    public static final Item jacaranda_post = null;
+    public static final Item magic_post = null;
+    public static final Item mahogany_post = null;
+    public static final Item palm_post = null;
+    public static final Item redwood_post = null;
+    public static final Item umbran_post = null;
+    public static final Item willow_post = null;
     
     public static final Item black_cherry_bed = null;
     public static final Item black_dead_bed = null;

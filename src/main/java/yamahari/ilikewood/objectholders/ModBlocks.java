@@ -325,6 +325,19 @@ public class ModBlocks {
     public static final Block umbran_wall = null;
     public static final Block willow_wall = null;
 
+    public static final Block cherry_panels = null;
+    public static final Block dead_panels = null;
+    public static final Block ethereal_panels = null;
+    public static final Block fir_panels = null;
+    public static final Block hellbark_panels = null;
+    public static final Block jacaranda_panels = null;
+    public static final Block magic_panels = null;
+    public static final Block mahogany_panels = null;
+    public static final Block palm_panels = null;
+    public static final Block redwood_panels = null;
+    public static final Block umbran_panels = null;
+    public static final Block willow_panels = null;
+
     public static final Block cherry_chest = null;
     public static final Block dead_chest = null;
     public static final Block ethereal_chest = null;
@@ -337,6 +350,33 @@ public class ModBlocks {
     public static final Block redwood_chest = null;
     public static final Block umbran_chest = null;
     public static final Block willow_chest = null;
+
+    public static final Block stripped_cherry_post = null;
+    public static final Block stripped_dead_post = null;
+    public static final Block stripped_ethereal_post = null;
+    public static final Block stripped_fir_post = null;
+    public static final Block stripped_hellbark_post = null;
+    public static final Block stripped_jacaranda_post = null;
+    public static final Block stripped_magic_post = null;
+    public static final Block stripped_mahogany_post = null;
+    public static final Block stripped_palm_post = null;
+    public static final Block stripped_redwood_post = null;
+    public static final Block stripped_umbran_post = null;
+    public static final Block stripped_willow_post = null;
+
+    public static final Block cherry_post = null;
+    public static final Block dead_post = null;
+    public static final Block ethereal_post = null;
+    public static final Block fir_post = null;
+    public static final Block hellbark_post = null;
+    public static final Block jacaranda_post = null;
+    public static final Block magic_post = null;
+    public static final Block mahogany_post = null;
+    public static final Block palm_post = null;
+    public static final Block redwood_post = null;
+    public static final Block umbran_post = null;
+    public static final Block willow_post = null;
+    
     
     public static final Block black_cherry_bed = null;
     public static final Block black_dead_bed = null;

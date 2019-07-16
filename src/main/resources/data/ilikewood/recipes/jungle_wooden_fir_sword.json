@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "I"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:jungle_planks"
+    },
+    "I": {
+      "item": "ilikewood:fir_stick"
+    }
+  },
+  "result": {
+    "item": "ilikewood:jungle_wooden_fir_sword"
+  }
+}

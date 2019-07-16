@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:mahogany_slab"
+    }
+  },
+  "result": {
+    "item": "ilikewood:mahogany_panels"
+  }
+}

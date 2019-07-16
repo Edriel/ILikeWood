@@ -123,6 +123,22 @@ public class BoPConstants {
                     ModBlocks.willow_wall
             );
 
+    public static final ImmutableSet<Block> PANELS =
+            ImmutableSet.of(
+                    ModBlocks.cherry_panels,
+                    ModBlocks.dead_panels,
+                    ModBlocks.ethereal_panels,
+                    ModBlocks.fir_panels,
+                    ModBlocks.hellbark_panels,
+                    ModBlocks.jacaranda_panels,
+                    ModBlocks.magic_panels,
+                    ModBlocks.mahogany_panels,
+                    ModBlocks.palm_panels,
+                    ModBlocks.redwood_panels,
+                    ModBlocks.umbran_panels,
+                    ModBlocks.willow_panels
+            );
+
     public static final ImmutableSet<Block> CHESTS =
             ImmutableSet.of(
                     ModBlocks.cherry_chest,
@@ -137,6 +153,38 @@ public class BoPConstants {
                     ModBlocks.redwood_chest,
                     ModBlocks.umbran_chest,
                     ModBlocks.willow_chest
+            );
+
+    public static final ImmutableSet<Block> POSTS =
+            ImmutableSet.of(
+                    ModBlocks.cherry_post,
+                    ModBlocks.dead_post,
+                    ModBlocks.ethereal_post,
+                    ModBlocks.fir_post,
+                    ModBlocks.hellbark_post,
+                    ModBlocks.jacaranda_post,
+                    ModBlocks.magic_post,
+                    ModBlocks.mahogany_post,
+                    ModBlocks.palm_post,
+                    ModBlocks.redwood_post,
+                    ModBlocks.umbran_post,
+                    ModBlocks.willow_post
+            );
+
+    public static final ImmutableSet<Block> STRIPPED_POSTS =
+            ImmutableSet.of(
+                    ModBlocks.stripped_cherry_post,
+                    ModBlocks.stripped_dead_post,
+                    ModBlocks.stripped_ethereal_post,
+                    ModBlocks.stripped_fir_post,
+                    ModBlocks.stripped_hellbark_post,
+                    ModBlocks.stripped_jacaranda_post,
+                    ModBlocks.stripped_magic_post,
+                    ModBlocks.stripped_mahogany_post,
+                    ModBlocks.stripped_palm_post,
+                    ModBlocks.stripped_redwood_post,
+                    ModBlocks.stripped_umbran_post,
+                    ModBlocks.stripped_willow_post
             );
 
     public static final ImmutableSet<Block> BEDS =
@@ -334,7 +382,7 @@ public class BoPConstants {
                     ModBlocks.yellow_umbran_bed,
                     ModBlocks.yellow_willow_bed
             );
-    
+
     static {
         Map<Block, Block> torches = new HashMap();
         torches.put(ModBlocks.cherry_torch, ModBlocks.cherry_wall_torch);

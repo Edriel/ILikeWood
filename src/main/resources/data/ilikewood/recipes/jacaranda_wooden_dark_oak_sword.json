@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "I"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:jacaranda_planks"
+    },
+    "I": {
+      "item": "ilikewood:dark_oak_stick"
+    }
+  },
+  "result": {
+    "item": "ilikewood:jacaranda_wooden_dark_oak_sword"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:dead_log"
+    }
+  },
+  "result": {
+    "item": "ilikewood:dead_post",
+    "count": 6
+  }
+}

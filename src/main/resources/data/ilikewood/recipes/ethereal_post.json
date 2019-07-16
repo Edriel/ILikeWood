@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:ethereal_log"
+    }
+  },
+  "result": {
+    "item": "ilikewood:ethereal_post",
+    "count": 6
+  }
+}

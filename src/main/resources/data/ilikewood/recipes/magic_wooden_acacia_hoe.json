@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    " I",
+    " I"
+  ],
+  "key": {
+    "#": {
+      "item": "biomesoplenty:magic_planks"
+    },
+    "I": {
+      "item": "ilikewood:acacia_stick"
+    }
+  },
+  "result": {
+    "item": "ilikewood:magic_wooden_acacia_hoe"
+  }
+}
