@@ -2,10 +2,8 @@ package yamahari.ilikewood.tileentities.renderer;
 
 import com.mojang.blaze3d.platform.GlStateManager;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.LecternBlock;
 import net.minecraft.client.renderer.entity.model.BookModel;
 import net.minecraft.client.renderer.tileentity.TileEntityRenderer;
-import net.minecraft.tileentity.LecternTileEntity;
 import net.minecraft.util.Direction;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
@@ -22,7 +20,7 @@ public class WoodenLecternTileEntityRenderer extends TileEntityRenderer<WoodenLe
     }
 
     @Override
-    public void func_199341_a(WoodenLecternTileEntity p_199341_1_, double p_199341_2_, double p_199341_4_, double p_199341_6_, float p_199341_8_, int p_199341_9_) {
+    public void render(WoodenLecternTileEntity p_199341_1_, double p_199341_2_, double p_199341_4_, double p_199341_6_, float p_199341_8_, int p_199341_9_) {
         BlockState lvt_10_1_ = p_199341_1_.getBlockState();
         if ((Boolean)lvt_10_1_.get(WoodenLecternBlock.HAS_BOOK)) {
             GlStateManager.pushMatrix();
@@ -33,7 +31,7 @@ public class WoodenLecternTileEntityRenderer extends TileEntityRenderer<WoodenLe
             GlStateManager.translatef(0.0F, -0.125F, 0.0F);
             this.bindTexture(field_217655_c);
             GlStateManager.enableCull();
-            this.field_217656_d.func_217103_a(0.0F, 0.1F, 0.9F, 1.2F, 0.0F, 0.0625F);
+            this.field_217656_d.render(0.0F, 0.1F, 0.9F, 1.2F, 0.0F, 0.0625F);
             GlStateManager.popMatrix();
         }
     }

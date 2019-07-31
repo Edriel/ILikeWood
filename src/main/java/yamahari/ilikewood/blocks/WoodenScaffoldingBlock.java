@@ -192,7 +192,7 @@ public class WoodenScaffoldingBlock extends Block implements IWooden, IWaterLogg
 
         while (it.hasNext()) {
             Direction direction = (Direction) it.next();
-            BlockState blockState1 = blockReaderIn.getBlockState(mutableBlockPos.func_189533_g(blockPosIn).move(direction));
+            BlockState blockState1 = blockReaderIn.getBlockState(mutableBlockPos.setPos(blockPosIn).move(direction));
             if (blockState1.getBlock() instanceof WoodenScaffoldingBlock) {
                 distance = Math.min(distance, blockState1.get(DISTANCE) + 1);
                 if (distance == 1) {

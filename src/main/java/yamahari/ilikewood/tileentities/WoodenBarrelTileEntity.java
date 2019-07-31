@@ -160,7 +160,7 @@ public class WoodenBarrelTileEntity extends LockableLootTileEntity {
 
             ++this.field_213967_b;
             BlockState lvt_2_1_ = this.getBlockState();
-            boolean lvt_3_1_ = (Boolean)lvt_2_1_.get(WoodenBarrelBlock.field_220093_b);
+            boolean lvt_3_1_ = (Boolean)lvt_2_1_.get(WoodenBarrelBlock.PROPERTY_OPEN);
             if (!lvt_3_1_) {
                 this.func_213965_a(lvt_2_1_, SoundEvents.BLOCK_BARREL_OPEN);
                 this.func_213963_a(lvt_2_1_, true);
@@ -189,7 +189,7 @@ public class WoodenBarrelTileEntity extends LockableLootTileEntity {
                 return;
             }
 
-            boolean lvt_5_1_ = (Boolean)lvt_4_1_.get(WoodenBarrelBlock.field_220093_b);
+            boolean lvt_5_1_ = (Boolean)lvt_4_1_.get(WoodenBarrelBlock.PROPERTY_OPEN);
             if (lvt_5_1_) {
                 this.func_213965_a(lvt_4_1_, SoundEvents.BLOCK_BARREL_CLOSE);
                 this.func_213963_a(lvt_4_1_, false);
@@ -206,11 +206,11 @@ public class WoodenBarrelTileEntity extends LockableLootTileEntity {
     }
 
     private void func_213963_a(BlockState p_213963_1_, boolean p_213963_2_) {
-        this.world.setBlockState(this.getPos(), (BlockState)p_213963_1_.with(WoodenBarrelBlock.field_220093_b, p_213963_2_), 3);
+        this.world.setBlockState(this.getPos(), (BlockState)p_213963_1_.with(WoodenBarrelBlock.PROPERTY_OPEN, p_213963_2_), 3);
     }
 
     private void func_213965_a(BlockState p_213965_1_, SoundEvent p_213965_2_) {
-        Vec3i lvt_3_1_ = ((Direction)p_213965_1_.get(WoodenBarrelBlock.field_220092_a)).getDirectionVec();
+        Vec3i lvt_3_1_ = ((Direction)p_213965_1_.get(WoodenBarrelBlock.PROPERTY_FACING)).getDirectionVec();
         double lvt_4_1_ = (double)this.pos.getX() + 0.5D + (double)lvt_3_1_.getX() / 2.0D;
         double lvt_6_1_ = (double)this.pos.getY() + 0.5D + (double)lvt_3_1_.getY() / 2.0D;
         double lvt_8_1_ = (double)this.pos.getZ() + 0.5D + (double)lvt_3_1_.getZ() / 2.0D;

@@ -23,7 +23,7 @@ import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.TranslationTextComponent;
-import net.minecraft.world.ServerWorld;
+import net.minecraft.world.server.ServerWorld;
 import yamahari.ilikewood.blocks.WoodenLecternBlock;
 import yamahari.ilikewood.util.WoodType;
 
@@ -169,7 +169,7 @@ public class WoodenLecternTileEntity extends TileEntity implements IClearable, I
 
     private ItemStack func_214047_b(ItemStack p_214047_1_, @Nullable PlayerEntity p_214047_2_) {
         if (this.world instanceof ServerWorld && p_214047_1_.getItem() == Items.WRITTEN_BOOK) {
-            WrittenBookItem.func_220050_a(p_214047_1_, this.func_214039_a(p_214047_2_), p_214047_2_);
+            WrittenBookItem.resolveContents(p_214047_1_, this.func_214039_a(p_214047_2_), p_214047_2_);
         }
 
         return p_214047_1_;

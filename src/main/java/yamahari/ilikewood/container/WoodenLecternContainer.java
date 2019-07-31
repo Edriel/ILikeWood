@@ -32,7 +32,7 @@ public class WoodenLecternContainer extends Container {
                 WoodenLecternContainer.this.onCraftMatrixChanged(this.inventory);
             }
         });
-        this.func_216961_a(p_i50076_3_);
+        this.trackIntArray(p_i50076_3_);
     }
 
     public boolean enchantItem(PlayerEntity p_75140_1_, int p_75140_2_) {

@@ -79,7 +79,7 @@ public class WoodenWorkbenchContainer extends RecipeBookContainer<CraftingInvent
             if (lvt_7_1_.isPresent()) {
                 ICraftingRecipe lvt_8_1_ = lvt_7_1_.get();
                 if (p_217066_4_.canUseRecipe(p_217066_1_, lvt_5_1_, lvt_8_1_)) {
-                    lvt_6_1_ = lvt_8_1_.func_77572_b(p_217066_3_);
+                    lvt_6_1_ = lvt_8_1_.getCraftingResult(p_217066_3_);
                 }
             }
 
@@ -108,7 +108,7 @@ public class WoodenWorkbenchContainer extends RecipeBookContainer<CraftingInvent
 
     @Override
     public boolean matches(IRecipe<? super CraftingInventory> p_201769_1_) {
-        return p_201769_1_.func_77569_a(this.field_75162_e, this.player.world);
+        return p_201769_1_.matches(this.field_75162_e, this.player.world);
     }
 
     @Override
